@@ -1,20 +1,20 @@
-[200~#include <stdio.h>
+#include <stdio.h>
 
 /**
- *  * main - Entry point
- *   * Description:print alphabets except q and e
- *    * Return: 0 (success)
- *     */
+ * main - Entry point
+ * Description:print alphabets except q and e
+ * Return: 0 (success)
+ */
 int main(void)
 {
-		char ch;
+	char ch;
 
-			for (ch = 'a'; ch <= 'z'; ch++)
-					{
-								if (ch == 'e' || ch == 'q')
-												continue;
-										putchar(ch);
-											}
-				putchar('\n');
-					return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+	{
+		if (ch == 'e' || ch == 'q')
+			continue;
+		putchar(ch);
+	}
+	putchar('\n');
+	return (0);
 }
