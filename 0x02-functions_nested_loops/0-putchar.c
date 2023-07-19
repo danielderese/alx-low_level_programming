@@ -1,14 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+#include "main.h"
 /**
- * main - Print _putchar
- * _putchar - function prototype
- * @c: The character to print
- *
- * Return: 0
+ * main - Entry point
+ * Description: 'prints _putchar to stdout'
+ * Return: always 0
  */
-int _putchar(char c);
 int main(void)
 {
 	_putchar('_');
@@ -20,6 +15,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-
 	return (0);
 }
