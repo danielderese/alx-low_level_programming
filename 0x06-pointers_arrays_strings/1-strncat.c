@@ -22,4 +22,4 @@ char *_strncat(char *dest, char *src, int n)
 		y++;
 	}
 	return (dest);
-}}
+}
