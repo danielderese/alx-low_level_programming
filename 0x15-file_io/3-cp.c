@@ -1,6 +1,14 @@
 #include "main.h"
 #include <stdio.h>
 
+
+/**
+ * create_buffer - Allocates 1024 bytes for a buffer.
+ * @file: The name of the file buffer is storing chars for.
+ *
+ * Return: A pointer to the newly-allocated buffer.
+ */
+
 void error_file(int file_from, int file_to, char *argv[])
 {
 	if (file_from == -1)
